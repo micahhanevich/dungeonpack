@@ -7,7 +7,6 @@
  "scripts:classes/hunter/scavenger",
  "scripts:deaths/deathhandler",
  "scripts:effects/general",
- "scripts:test/kindle",
  "scripts:advance/kills",
  "scripts:clearing/cleanup"
  ]
