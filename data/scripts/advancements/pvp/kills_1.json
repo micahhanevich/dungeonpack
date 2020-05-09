@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "title": {
+      "translate": "Apprentice Killer"
+    },
+    "description": {
+      "translate": "Get your first kill."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

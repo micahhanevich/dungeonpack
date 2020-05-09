@@ -1,0 +1,24 @@
+{
+  "parent": "scripts:pvp/kills_5",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Angel of Death",
+      "color":"red"
+    },
+    "description": {
+      "translate": "Get 1500 Kills."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

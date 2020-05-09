@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/kills_1",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_sword"
+    },
+    "title": {
+      "translate": "Novice Killer"
+    },
+    "description": {
+      "translate": "Get 20 kills."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

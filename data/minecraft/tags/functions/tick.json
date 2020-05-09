@@ -1,0 +1,14 @@
+{
+ "values": [
+ "scripts:classes/guardian/causewound",
+ "scripts:effects/woundtimer",
+ "scripts:classes/hunter/causefightorflight",
+ "scripts:effects/fftimer",
+ "scripts:classes/hunter/scavenger",
+ "scripts:deaths/deathhandler",
+ "scripts:effects/general",
+ "scripts:test/kindle",
+ "scripts:advance/kills",
+ "scripts:clearing/cleanup"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "title": {
+      "translate": "Quests"
+    },
+    "description": {
+      "translate": "Quests to complete"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/light_gray_concrete.png"
+  },
+  "criteria": {
+    "instant": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

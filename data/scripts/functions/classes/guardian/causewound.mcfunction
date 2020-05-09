@@ -1,0 +1,2 @@
+execute as @e[type=player,scores={class=0,dmgdealt=1..}] at @s run execute as @e[type=player,distance=0.00001..10,sort=nearest,scores={dmgtaken=1..},nbt={Attributes:[{Modifiers:[{UUID:[I; 0, 0, 0, 1]}]}]}] run scoreboard players set @s woundtimer 120
+execute as @e[type=player,scores={class=0,dmgdealt=1..}] at @s run execute as @e[type=player,distance=0.00001..10,sort=nearest,scores={dmgtaken=1..},nbt=!{Attributes:[{Modifiers:[{UUID:[I; 0, 0, 0, 1]}]}]}] run function scripts:classes/guardian/wound

@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/kills_3",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_sword"
+    },
+    "title": {
+      "translate": "Veteran Combatant"
+    },
+    "description": {
+      "translate": "Get 250 kills."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

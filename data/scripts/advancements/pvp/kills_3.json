@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/kills_2",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "Adept Slayer"
+    },
+    "description": {
+      "translate": "Get 100 kills."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

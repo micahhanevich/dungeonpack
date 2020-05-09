@@ -1,0 +1,24 @@
+{
+  "parent": "scripts:pvp/kills_4",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "Assassin",
+      "color":"green"
+    },
+    "description": {
+      "translate": "Get 500 kills."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
