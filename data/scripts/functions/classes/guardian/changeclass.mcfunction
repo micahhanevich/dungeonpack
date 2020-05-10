@@ -1,7 +1,7 @@
 scoreboard players set @s class 0
 attribute @s minecraft:generic.max_health base set 26
 attribute @s minecraft:generic.knockback_resistance base set .1
-attribute @s minecraft:generic.attack_speed base set 4
+attribute @s minecraft:generic.attack_speed base set 3
 
 replaceitem entity @s armor.head minecraft:netherite_helmet{display:{Name:'{"text":"Guardian Helm","color":"green","italic":false}',Lore:['{"text":"3 armor","color":"blue","italic":false}']},HideFlags:63,RepairCost:999,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUID:[I;-1724871098,-384941616,-1468024073,-792433330],Slot:"head"}]} 1
 replaceitem entity @s armor.chest minecraft:netherite_chestplate{display:{Name:'{"text":"Guardian Cuirass","color":"green","italic":false}',Lore:['{"text":"4 armor","color":"blue","italic":false}']},HideFlags:63,RepairCost:999,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;884982225,1648512231,-2132918445,-1744663757],Slot:"chest"}]} 1
