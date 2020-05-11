@@ -6,6 +6,7 @@
  "scripts:classes/hunter/causefightorflight",
  "scripts:effects/fftimer",
  "scripts:classes/hunter/scavenger",
+ "scripts:classes/mercenary/restock",
  "scripts:deaths/deathhandler",
  "scripts:effects/general",
  "scripts:events/ping",

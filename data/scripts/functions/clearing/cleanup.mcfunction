@@ -27,3 +27,6 @@ execute if score world spawntimer matches 2 run tp @e[tag=spawnpoint] 968 136 88
 execute if score world spawntimer matches 3 run tp @e[tag=spawnpoint] 940 142 886 90 0
 execute if score world spawntimer matches 4 run tp @e[tag=spawnpoint] 920 130 825 0 0
 execute if score world spawntimer matches 4.. run scoreboard players set world spawntimer 0
+
+scoreboard players add @e[tag=summoned] summonage 1
+kill @e[tag=summoned,scores={summonage=600..}]
