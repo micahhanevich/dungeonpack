@@ -1,0 +1,1 @@
+execute as @a[x=904,y=169,z=860,distance=..2] run function scripts:classes/hunter/changeclass

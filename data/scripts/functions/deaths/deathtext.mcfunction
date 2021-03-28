@@ -1,1 +1,0 @@
-tellraw @a [{"selector":"@s","color":"aqua"},{"text":" has fallen in combat","color":"yellow"}]

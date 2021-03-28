@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/mobs_1",
+  "display": {
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "title": {
+      "translate": "Novice Hunter"
+    },
+    "description": {
+      "translate": "Kill 25 Mobs."
+    },
+    "frame": "goal",					 
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

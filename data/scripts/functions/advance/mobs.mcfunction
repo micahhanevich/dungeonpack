@@ -1,0 +1,13 @@
+advancement grant @a[advancements={scripts:pvp/mobs_1=false},scores={MobKills=1..}] only scripts:pvp/mobs_1
+advancement grant @a[advancements={scripts:pvp/mobs_2=false},scores={MobKills=25..}] only scripts:pvp/mobs_2
+advancement grant @a[advancements={scripts:pvp/mobs_3=false},scores={MobKills=125..}] only scripts:pvp/mobs_3
+advancement grant @a[advancements={scripts:pvp/mobs_4=false},scores={MobKills=300..}] only scripts:pvp/mobs_4
+advancement grant @a[advancements={scripts:pvp/mobs_5=false},scores={MobKills=750..}] only scripts:pvp/mobs_5
+advancement grant @a[advancements={scripts:pvp/mobs_6=false},scores={MobKills=2500..}] only scripts:pvp/mobs_6
+advancement grant @a[advancements={scripts:mastery/root=false},scores={MobKills=10000..}] only scripts:mastery/root
+advancement grant @a[advancements={scripts:mastery/mobs_7=false},scores={MobKills=10000..}] only scripts:mastery/mobs_7
+advancement grant @a[advancements={scripts:mastery/mobs_8=false},scores={MobKills=20000..}] only scripts:mastery/mobs_8
+advancement grant @a[advancements={scripts:mastery/mobs_9=false},scores={MobKills=30000..}] only scripts:mastery/mobs_9
+advancement grant @a[advancements={scripts:mastery/mobs_10=false},scores={MobKills=40000..}] only scripts:mastery/mobs_10
+advancement grant @a[advancements={scripts:mastery/mobs_11=false},scores={MobKills=50000..}] only scripts:mastery/mobs_11
+advancement grant @a[advancements={scripts:mastery/mobs_12=false},scores={MobKills=60000..}] only scripts:mastery/mobs_12

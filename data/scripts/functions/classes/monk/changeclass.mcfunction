@@ -1,0 +1,15 @@
+scoreboard players set @s class 4
+attribute @s minecraft:generic.attack_speed base set 3
+
+replaceitem entity @s hotbar.0 stone_sword{Unbreakable:1,display:{Name:'{"text":"Bo Staff","color":"green","bold":false,"italic":false}',Lore:['{"text":"+5 Attack","color":"blue","bold":false,"italic":false}']},HideFlags:63,Enchantments:[{id:"minecraft:knockback",lvl:1s},{id:"minecraft:sweeping_edge",lvl:4s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:5,Operation:0,UUID:[I;-2067840845,-84589104,-1368647546,2079945103],Slot:"mainhand"}],CustomModelData:2} 1
+replaceitem entity @s armor.legs leather_leggings{display:{Name:'{"text":"Monk Trousers","color":"green","bold":false,"italic":false}',Lore:['{"text":"+2 Armor","color":"blue","bold":false,"italic":false}']},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;1500463302,-434551155,-2095504901,-744437081],Slot:"legs"}]} 1
+replaceitem entity @s armor.feet leather_boots{display:{Name:'{"text":"Monk Boots","color":"green","bold":false,"italic":false}',Lore:['{"text":"+2 Armor","color":"blue","bold":false,"italic":false}']},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;1500463302,-434551155,-2095504901,-744437080],Slot:"feet"}]} 1
+replaceitem entity @s hotbar.8 mojang_banner_pattern{display:{Name:'[{"text":"Passive: ","color":"yellow","bold":true,"italic":false},{"text":"Acrobat","color":"blue","bold":false}]',Lore:['[{"text":"The Monk has ","color":"gray","italic":true},{"text":"Jump","color":"green","italic":false}]','[{"text":"Boost ","color":"green","italic":false},{"text":"1 ","color":"gold","italic":false},{"text":"and ","color":"gray","italic":true},{"text":"Speed ","italic":false},{"text":"1","color":"gold","italic":false}]']},HideFlags:127} 1
+give @s netherite_pickaxe{CanDestroy:["minecraft:coal_ore","minecraft:iron_ore","minecraft:gold_ore","minecraft:emerald_ore","minecraft:diamond_ore"],display:{Name:'{"text":"Rusty Pick","color":"gold","italic":false}',Lore:['{"text":"Used to mine Ores","color":"light_purple","italic":true}']},HideFlags:63,Unbreakable:1b,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:-5,Operation:0,UUID:[I;-140614809,1119634505,-1306943518,1742129052],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:10,Operation:0,UUID:[I;-1810993639,-1307293162,-1794816126,-1395395825],Slot:"mainhand"}]} 1
+
+effect give @s jump_boost 1000000 0 true
+effect give @s speed 1000000 0 true
+
+tp @e[tag=spawnpoint,limit=1]
+execute as @a[scores={class=0..}] at @s run playsound minecraft:block.bell.use master @s ~ ~ ~ 10 0
+execute at @s run particle minecraft:portal ~ ~1 ~ .1 .3 .1 1 150 force

@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/mobs_2",
+  "display": {
+    "icon": {
+      "item": "minecraft:spider_eye"
+    },
+    "title": {
+      "translate": "Adept Hunter"
+    },
+    "description": {
+      "translate": "Kill 125 Mobs."
+    },
+    "frame": "goal",					 
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

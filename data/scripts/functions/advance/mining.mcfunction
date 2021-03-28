@@ -1,0 +1,13 @@
+advancement grant @a[advancements={scripts:pvp/mining_1=false},scores={times_mined=1..}] only scripts:pvp/mining_1
+advancement grant @a[advancements={scripts:pvp/mining_2=false},scores={times_mined=50..}] only scripts:pvp/mining_2
+advancement grant @a[advancements={scripts:pvp/mining_3=false},scores={times_mined=200..}] only scripts:pvp/mining_3
+advancement grant @a[advancements={scripts:pvp/mining_4=false},scores={times_mined=750..}] only scripts:pvp/mining_4
+advancement grant @a[advancements={scripts:pvp/mining_5=false},scores={times_mined=2000..}] only scripts:pvp/mining_5
+advancement grant @a[advancements={scripts:pvp/mining_6=false},scores={times_mined=5000..}] only scripts:pvp/mining_6
+advancement grant @a[advancements={scripts:mastery/root=false},scores={times_mined=20000..}] only scripts:mastery/root
+advancement grant @a[advancements={scripts:mastery/mining_7=false},scores={times_mined=20000..}] only scripts:mastery/mining_7
+advancement grant @a[advancements={scripts:mastery/mining_8=false},scores={times_mined=40000..}] only scripts:mastery/mining_8
+advancement grant @a[advancements={scripts:mastery/mining_9=false},scores={times_mined=60000..}] only scripts:mastery/mining_9
+advancement grant @a[advancements={scripts:mastery/mining_10=false},scores={times_mined=80000..}] only scripts:mastery/mining_10
+advancement grant @a[advancements={scripts:mastery/mining_11=false},scores={times_mined=100000..}] only scripts:pvp/mining_11
+advancement grant @a[advancements={scripts:mastery/mining_12=false},scores={times_mined=200000..}] only scripts:pvp/mining_12

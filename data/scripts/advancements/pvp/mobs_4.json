@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/mobs_3",
+  "display": {
+    "icon": {
+      "item": "minecraft:gunpowder"
+    },
+    "title": {
+      "translate": "Veteran Hunter"
+    },
+    "description": {
+      "translate": "Kill 300 Mobs."
+    },
+    "frame": "goal",					 
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

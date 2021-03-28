@@ -1,0 +1,1 @@
+execute as @a[x=909,y=169,z=855,distance=..2] run function scripts:classes/guardian/changeclass

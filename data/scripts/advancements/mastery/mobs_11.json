@@ -1,0 +1,26 @@
+{
+  "parent": "scripts:mastery/mobs_10",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Mob Mastery V",
+	  "color":"blue"
+    },
+    "description": {
+      "translate": "Get 50000 Kills.",
+	  "color":"dark_purple"
+	  
+    },
+    "frame": "challenge",					 
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

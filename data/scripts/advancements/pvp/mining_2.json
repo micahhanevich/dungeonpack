@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/mining_1",
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "title": {
+      "translate": "Novice Miner"
+    },
+    "description": {
+      "translate": "Mine 50 Ores."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

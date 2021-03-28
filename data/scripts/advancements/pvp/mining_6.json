@@ -1,0 +1,24 @@
+{
+  "parent": "scripts:pvp/mining_5",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Master of the Mine",
+      "color":"gold"
+    },
+    "description": {
+      "translate": "Mine 5000 Ores."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

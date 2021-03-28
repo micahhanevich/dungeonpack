@@ -1,0 +1,25 @@
+{
+  "parent": "scripts:pvp/mobs_5",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Collector",
+	  "color":"blue"
+    },
+    "description": {
+      "translate": "Kill 2500 Mobs.",
+	  "color":"dark_purple"
+    },
+    "frame": "challenge",					 
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

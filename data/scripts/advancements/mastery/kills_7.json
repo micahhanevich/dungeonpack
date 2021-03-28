@@ -1,0 +1,24 @@
+{
+  "parent": "scripts:mastery/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "Kill Mastery I",
+      "color":"red"
+    },
+    "description": {
+      "translate": "Get 4000 Kills."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "scripts:mastery/mining_11",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "title": {
+      "translate": "Mining Mastery VI",
+      "color":"gold"
+    },
+    "description": {
+      "translate": "Mine 200000 Ores."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

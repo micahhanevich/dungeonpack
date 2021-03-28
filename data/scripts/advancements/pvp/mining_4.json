@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/mining_3",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "Weathered Miner"
+    },
+    "description": {
+      "translate": "Mine 750 Ores."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

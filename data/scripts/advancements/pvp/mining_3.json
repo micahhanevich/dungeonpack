@@ -1,0 +1,23 @@
+{
+  "parent": "scripts:pvp/mining_2",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "translate": "Adept Miner"
+    },
+    "description": {
+      "translate": "Mine 200 Ores."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

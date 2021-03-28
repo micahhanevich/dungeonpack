@@ -1,0 +1,24 @@
+{
+  "parent": "scripts:pvp/mining_4",
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "translate": "Prospector",
+      "color":"green"
+    },
+    "description": {
+      "translate": "Mine 2000 Ores."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "scripts:mastery/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "Mob Mastery I",
+	  "color":"blue"
+    },
+    "description": {
+      "translate": "Get 10000 kills.",
+	  "color":"dark_purple"
+	  
+    },
+    "frame": "challenge",					 
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

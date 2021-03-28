@@ -1,0 +1,1 @@
+execute as @a[x=899,y=169,z=834,distance=..2] run function scripts:classes/monk/changeclass

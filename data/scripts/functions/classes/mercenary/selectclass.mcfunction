@@ -1,0 +1,1 @@
+execute as @a[x=909,y=169,z=839,distance=..2] run function scripts:classes/mercenary/changeclass

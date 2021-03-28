@@ -1,15 +1,23 @@
 {
  "values": [
  "scripts:advance/kills",
+ "scripts:advance/mining",
+ "scripts:advance/mobs",
+ "scripts:advance/secrets",
+ "scripts:classes/assassin/shadowmelt",
  "scripts:classes/guardian/causewound",
+ "scripts:classes/guardian/lockdown",
  "scripts:effects/woundtimer",
  "scripts:classes/hunter/causefightorflight",
  "scripts:effects/fftimer",
  "scripts:classes/hunter/scavenger",
  "scripts:classes/mercenary/restock",
- "scripts:deaths/deathhandler",
+ "scripts:spawning/spawnhandler",
+ "scripts:spawning/minehandler",
  "scripts:effects/general",
- "scripts:events/ping",
+ "scripts:test/particle",
+ "scripts:test/loadout",
+ "scripts:events/eventhandler",
  "scripts:clearing/cleanup"
  ]
 }
