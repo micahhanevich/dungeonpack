@@ -1,1 +1,1 @@
-execute as @a[x=904,y=169,z=834,distance=..2] run function scripts:classes/assassin/changeclass
+execute as @a[x=904,y=169,z=834,distance=..2.5] run function scripts:classes/assassin/changeclass
